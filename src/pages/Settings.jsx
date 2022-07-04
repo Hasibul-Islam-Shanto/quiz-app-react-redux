@@ -39,7 +39,6 @@ const Settings = () => {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          // bgcolor: "#eeee",
         }}
       >
         <Typography
@@ -51,17 +50,17 @@ const Settings = () => {
         >
           Quiz App
         </Typography>
-        <Box>
-          <SelectOption options={response.trivia_categories} label="Category" />
-          <SelectOption options={Difficulty} label="Difficulty" />
-          <SelectOption options={Type} label="Type" />
-          <Amount label="Amount of Questions" />
-        </Box>
+
+        <SelectOption options={response.trivia_categories} label="Category" />
+        <SelectOption options={Difficulty} label="Difficulty" />
+        <SelectOption options={Type} label="Type" />
+        <Amount label="Amount of Questions" />
+
         <Button
           onClick={() => navigate("/questions")}
           variant="contained"
           sx={{
-            minWidth: "320px",
+            minWidth: "340px",
             marginTop: "1rem",
           }}
         >

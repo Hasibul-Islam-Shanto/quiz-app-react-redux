@@ -19,7 +19,7 @@ const Amount = (props) => {
         type="number"
         //   value={}
         onChange={handleAmount}
-        sx={{ width: "100%", marginTop: "1rem" }}
+        sx={{ minWidth: "350px", marginTop: "1rem" }}
       ></TextField>
     </>
   );

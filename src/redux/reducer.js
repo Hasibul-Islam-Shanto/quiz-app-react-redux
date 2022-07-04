@@ -10,7 +10,7 @@ const initialState = {
   ques_difficulty: "",
   ques_type: "",
   amount_of_ques: "",
-  score: "",
+  score: 0,
 };
 // reducer...
 const reducer = (state = initialState, action) => {
