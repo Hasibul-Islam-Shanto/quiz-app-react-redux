@@ -19,3 +19,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 # quiz_app_react-redux
 
 Using ReactJs and react-redux make a simple quiz app.
+
+# deployment address....
+
+https://splendorous-naiad-b8fffe.netlify.app/
